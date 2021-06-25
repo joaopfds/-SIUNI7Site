@@ -120,7 +120,10 @@ header nav ul li a {
 #image-principal h3 {
   text-align: center;
   vertical-align: bottom;
-  color: rgb(255, 174, 52);
+  color: rgb(255, 174, 52 );
+  background-color: #6161619c;
+  margin-top: 14cm;
+  border-radius: 20px;
 }
 .button-1 {
   display: block;
@@ -152,15 +155,14 @@ header nav ul li a {
   text-align: center;
 }
 
-#Conteudo ul li.profissao-2 {
-  background: url('../images/vestuario.jpg') no-repeat top center;
-}
-
-#Conteudo ul li.profissao-1 {
+#Conteudo ul li.p-1 {
   background: url('../images/comida.jpg') no-repeat top center;
 }
 
-#Conteudo ul li.profissao-3 {
+#Conteudo ul li.p-2 {
+  background: url('../images/vestuario.jpg') no-repeat top center;
+}
+#Conteudo ul li.p-3 {
   background: url('../images/utencilios.png') no-repeat top center;
 }
 
